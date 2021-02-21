@@ -1,7 +1,9 @@
 {
   "name": "dynamic-express-router-loader",
   "scripts": {
-    "dev": "node server.js --inspect"
+    "test": "jest --coverage",
+    "dev": "node server.js --inspect",
+    "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.17.1",
