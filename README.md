@@ -72,7 +72,7 @@ I would expect to be able to register them using the following construct:
 const express = require("express");
 const path = require("path");
 const app = express();
-const loader = require("express-meal");
+const loader = require("./express-meal");
 
 const router = loader.getRouter({
   cwd: path.join(__dirname, "./modules"),
