@@ -1,5 +1,8 @@
 {
   "name": "dynamic-express-router-loader",
+  "version": "1.0.0",
+  "description": "Interview problem to dynamically load routes from disk",
+  "main": "server.js",
   "scripts": {
     "test": "jest --coverage",
     "dev": "node server.js --inspect",
