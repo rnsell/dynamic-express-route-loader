@@ -11,10 +11,6 @@ const router = loader.getRouter({
 
 app.use(router);
 
-app.use("/", (req, res) => {
-  res.json("Hello world");
-});
-
 app.listen(PORT, () => {
   console.log(`App listening on http://localhost:${PORT}/`);
 });
