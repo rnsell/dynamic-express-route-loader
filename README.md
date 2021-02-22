@@ -3,6 +3,7 @@
 ## Quick Start
 
 - Run `nvm use` or use node v14
+- Run `npm i` to install dependencies
 - Run `npm start`
 
 ## Problem To Solve
